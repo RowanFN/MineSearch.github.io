@@ -116,7 +116,7 @@ var App = (function() {
     if(tryMode(data, DATAMODE_UNCOMPRESSED, true)) return;
     if(tryMode(data, DATAMODE_UNCOMPRESSED, false)) return;
     
-    if(confirm("Sorry, Could not read your file.\nIf you are sure this is a NBT-file you should report a bug.\n\nClick OK to return to the homepage."))
+    if(confirm("Ahh Creeper Attack! Can't read the Remains.\nIf you are sure this is a NBT-file you should contact us.\n\nClick OK to return to saftey."))
       location.href = "http://minesearch.info";
   };
   
