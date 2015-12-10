@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  /*background-image: url('http://imageshack.com/a/img905/4880/OtWP2Y.png');*/
+  /* That is for everything :/ */;
 }
 
 input {
@@ -12,6 +14,7 @@ input {
   border-radius: 2px;
   padding: 4px 7px;
   height: 23px;
+  color: #AFAFAF;
 }
 
 input[type="button"] {
@@ -69,7 +72,7 @@ div#drop_zone {
   text-align: center;
   font-size: 4em;
   font-weight: 500;
-  color: rgba(0, 0, 0, .5);
+  /*background-image: url('http://imageshack.com/a/img908/5848/FTlJrn.jpg');*/
   text-shadow: 0 1px rgba(255, 255, 255, .4);
   background-color: rgba(200, 200, 200, .8);
 }
@@ -77,6 +80,8 @@ div#drop_zone {
 div#drop_zone span {
   display: table-cell;
   vertical-align: middle;
+  background-image: url('http://imageshack.com/a/img908/5848/FTlJrn.jpg');
+  /*This is the overlay*/
 }
 
 div#topbar {
@@ -86,9 +91,9 @@ div#topbar {
   right: 370px;
   z-index: 200;
   
-  border-bottom: 1px solid;
+  /*border-bottom: 1px solid;*/
   padding: 6px 6px 5px;
-  background-color: #f8f8f8;
+  background-image: url('http://imageshack.com/a/img908/5848/FTlJrn.jpg');
 }
 
 body.hide-hexview div#topbar {
@@ -123,10 +128,10 @@ pre#hexview {
   bottom: 0;
   overflow-y: scroll;
   
-  border-left: 1px solid;
+  /*border-left: 1px solid;*/
   padding: 6px 8px;
   width: 354px;
-  background-color: #f8f8f8;
+  /*background-image: url('http://imageshack.com/a/img905/4880/OtWP2Y.png');*/
 }
 
 body.hide-hexview pre#hexview {
@@ -141,13 +146,13 @@ body {
   font-family: 'Helvetica Neue', 'Helvetica', 'Myriad Pro', 'Arial', sans-serif;
   font-size: 11px;
   font-weight: 300;
-  color: #333;
+  color: #FFF;
 }
 
 .nbt-icon {
   position: relative;
   top: 3px;
-  background: url(../assets/nbt-sheet.png) no-repeat !important;
+  background: url('http://imageshack.com/a/img910/4184/omjmV5.png') no-repeat !important;
   background-size: 64px 64px !important;
   width: 16px !important;
   height: 16px !important;
