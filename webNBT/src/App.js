@@ -116,8 +116,8 @@ var App = (function() {
     if(tryMode(data, DATAMODE_UNCOMPRESSED, true)) return;
     if(tryMode(data, DATAMODE_UNCOMPRESSED, false)) return;
     
-    if(confirm("Could not parse your file.\nIf you are sure this is a NBT-file you should report a bug.\n\nClick OK to contact the developer."))
-      location.href = "http://irath96.github.io/contact/";
+    if(confirm("Sorry, Could not read your file.\nIf you are sure this is a NBT-file you should report a bug.\n\nClick OK to return to the homepage."))
+      location.href = "http://minesearch.info";
   };
   
   function nodeEditValue(node, isNew) {
