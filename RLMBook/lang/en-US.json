@@ -161,7 +161,7 @@
         "raw-text-tab": "Choose your text choice. Raw is normal text. Scoreboard pulls a value from the scoreboard. Selector pulls the name of an entity.",
         "report-an-issue": "Click here to report an issue. If you experience any sort of bug, you should report it here.",
         "dropdown-list": "Tweet, view the changelog, view the minecraft forums thread, or get resources for translation.",
-        "addsnippet": "Add text to your tellraw command. /n creates a new line.",
+        "addsnippet": "Add text to your tellraw command.",
         "delete-all-snippets": "Clear your command completely. This will delete everything, use the Export button to save it first."
     },
     "output": {
@@ -207,5 +207,5 @@
         "heading": "Your Exported Command",
         "close": "Close"
     },
-    "attribution": "While nothing is required to use this, it would always be appreciated if you linked to this webpage."
+    "attribution": "While nothing is required to use this, it would always be appreciated if you linked to this webpage or the MCF thread."
 }

@@ -181,7 +181,7 @@ div[class*='col-xs-'] {
 
 #jsonPreview.bookPreview {
 	color: black;
-	ping-top: 60px;
+	padding-top: 60px;
 	padding-left: 30px;
 	padding-right: 70px;
 	max-width: 292px;
